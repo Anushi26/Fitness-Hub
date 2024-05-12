@@ -1,0 +1,146 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FITNESS HUB</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+*
+{
+background-color:black;
+}
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }   
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  display:inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color:#ddd;
+  color:black;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+ .dropbtn {
+  font-size:18px;
+  border: none;
+  outline: none;
+  color: #f2f2f2;
+  padding: 14px 20px;
+  background-color:inherit;
+  margin: 0;
+}
+.navbar a, .dropdown:hover .dropbtn 
+{
+  background-color: #333;
+}
+.dropdown-content  {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: #f2f2f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .form-group input {  
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid yellow;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container h1 {
+        text-align: center;
+    }
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+button
+{
+ border: 2px solid yellow;
+color:red;
+}
+</style>
+<body>
+  <p class="navbar">
+  <a href="mainpagedemo.html">HOME</a>
+  <a href="image.html">GALLERY</a>
+  <a href="contact.html">CONTACT</a>
+  <a href="anupriya.html">REVIEW</a>
+  <a href="profile.html">ABOUT</a>
+  <a href="demowaste.html">LOGIN</a>
+</p><center>
+        <div class="container">
+        <h1>Join the best gym now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button>Submit</button>
+        </form>
+    </div></center>
+</body>
+</html>

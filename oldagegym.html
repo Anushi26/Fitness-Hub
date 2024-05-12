@@ -1,0 +1,273 @@
+<html>
+<title>FITNESS HUB</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FITNESS HUB</title>
+<style>
+body{
+background:linear-gradient(to bottom, #0b0f10 0%, #9ae3bf 100%);
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display:inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color:#ddd;
+  color:black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+ .dropbtn {
+  font-size:18px;
+  border: none;
+  outline: none;
+  color: #f2f2f2;
+  padding: 14px 20px;
+  background-color:inherit;
+  margin: 0;
+}
+
+.navbar a, .dropdown:hover .dropbtn 
+{
+  background-color: #333;
+}
+
+.dropdown-content  {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #f2f2f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.pp
+{
+color:rgb(134, 223, 248);
+font-size:40px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+display:inline-block;
+}
+
+.text
+{
+font-size: 20px;
+color:white;
+text-align:center;
+}
+
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+Slide in (right):
+}
+{box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 30%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.img1
+{
+float:left;
+font-size:30px;
+margin: 10px 10px 15px 20px;
+align:right;
+}
+.img2
+{
+    float:right;
+    border: 3px dotted rgb(73, 69, 69);
+  margin: 10px 10px 15px 20px;
+}
+h1
+{
+    color:rgb(157, 87, 87);
+    text-align:center
+}
+.p1
+{
+    color:rgb(6, 4, 59);
+    font-size:25px;
+    text-align: center;
+}
+.p2{
+  color:rgb(6, 4, 59);
+    font-size:25px;
+}
+
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+h2{
+color:rgb(11, 14, 15);
+font-size:40px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<p class="navbar">
+  <a href="mainpagedemo.html">HOME</a>
+  <a href="image.html">GALLERY</a>
+  <a href="contact.html">CONTACT</a>
+  <a href="anupriya.html">REVIEW</a>
+  <a href="profile.html">ABOUT</a>
+  <a href="demowaste.html">LOGIN</a>
+</p>
+
+<h1 class="pp">ABOUT OUR GYM CLASSES</h1><br>
+<div class="slideshow-container">
+<div class="mySlides fade">
+<img src="oy2.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+<img src="oy3.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+<img src="oy4.webp" style="width:100%">
+</div>
+<div class="mySlides fade">
+<img src="oy6.jpg" style="width:100%">
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(4)"></span>
+<span class="dot" onclick="currentSlide(5)"></span>
+</div><br><br><br>
+<p class="p1"><img class="img1" src="oy1.jpg" width="500px" height="400px"><b>WELCOME TO OUR INCLUSIVE GYM !!</b><br><br>
+In our inclusive gym ,<br>we alse offer gym training  for old generations as well as handicapped and young people.Daily exercising will  enhance well-being, mood, attention, mental focus, and stress tolerance.<br> Proper training by a skilled teacher and  every daypexercise will maximize the benefits.<br> Many people choose gym because they their benefits. We also have Good  trainers who help each and every person who are focused towards a healthy lifestyle. 
+</p><br><br><br><br><br><br><br><br><br><br><br>
+<h2><b>WHY YOU SHOULD JOIN US</b></h2><br>
+<p class="p2"><img class="img2" src="oy3.jpg" width="600px" height="500px">
+1. We have a great team of gym trainers.<br>
+2. All the trianers are well trained in their respective feilds.<br>
+3. The motive of our fitness hub is to provide every type of physical fitness training to the interested people.<br>
+4. Demo classes are also available for the satisfaction of the customers so that they can freely join our fitness hub.
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,358 @@
+<html>
+<title>FITNESS HUB</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+<style>
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 0;
+            margin-top: auto; /* Pushes the footer to the bottom */
+            width: 100%; /* Ensures the footer spans the entire width */
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+               .h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .ax {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+        ax:hover {
+            color: #ddd;
+        }
+       .p {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+*
+{
+background-color:black;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display:inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color:#ddd;
+  color:black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+ .dropbtn {
+  font-size:18px;
+  border: none;
+  outline: none;
+  color: #f2f2f2;
+  padding: 14px 20px;
+  background-color:inherit;
+  margin: 0;
+}
+
+.navbar a, .dropdown:hover .dropbtn 
+{
+  background-color: #333;
+}
+
+.dropdown-content  {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #f2f2f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.text,h3,h1
+{
+color:white;
+font-size:35px;
+}
+.lead
+{
+background-color:darkcyan;
+width:auto;
+height:50px;
+color:white;
+font-size:40px;
+}
+.f
+{
+color:white;
+align="justify";
+font-size:25px;
+}
+.join
+{
+background: linear-gradient(to top,#ffffff 0%, #00ffff 100%);
+width:auto;
+height:300px;
+color:brown;
+font-size:40px;
+text-align:center;
+}
+button
+{
+color:yellow;
+background-color:orange;
+}
+button::hover
+{
+color:pink;
+background-color:blue;
+}
+tr,th
+{
+padding:2px;
+}
+.card 
+{
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:pink;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.line
+{
+background: linear-gradient(to top,#ffffff 0%, #00ffff 100%);
+display:flex;
+}
+.review-card {
+background:black;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease;
+color:white;
+  }
+
+  .review-card:nth-child(even) {
+    background-color:yellow;
+color:white;
+  }
+
+  .reviewer-name {
+    font-weight: bold;
+color:white;
+  }
+
+  .review-content {
+    margin-top: 10px;
+color:white;
+  }
+
+  .add-review-form {
+    margin-top: 30px;
+color:white;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+color:white;
+  }
+
+  .submit-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+ .body 
+{
+background:black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+  .container
+ {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+</style>
+</head>
+<body>
+<p class="navbar">
+  <a href="mainpagedemo.html">HOME</a>
+  <a href="image.html">GALLERY</a>
+  <a href="contact.html">CONTACT</a>
+  <a href="anupriya.html">REVIEW</a>
+  <a href="profile.html">ABOUT</a>
+  <a href="demowaste.html">LOGIN</a>
+</p>
+<p class="text"><center><h3>YOUR FITNESS HUB</h3></center></p>
+<p class="text"><center><h1>Welcome to your Best<br>Self</h1></center></p>
+<br><br>
+<table>
+<tr>
+<th><img src="gym.jpg" alt="" width="500px" height="400px"></th>
+<th><img src="dis5.jpg" alt="" width="500px" height="400px"></th>
+<th><img src="oy5.jpg" alt=""  width="500px" height="400px"></th>
+</tr></table><br>
+<p class="lead">ABOUT US</p>
+<table>
+<tr>
+<th><img src="oldage.jpg" alt=""></img></th>
+<th class="f">Join our community<br><br><br>At FITNESS HUB, we believe in offering inclusive gym and yoga services to everyone, regardless of age or ability.
+As a college project turned full-fledged fitness center, we're passionate about helping our members achieve their health and wellness goals.
+Our unique approach to fitness is what sets us apart.We work with you to design a personalized exercise plan that fits your individual needs and preferences.
+With our state-of-the-art equipment and experienced trainers, you'll have everything you need to reach your full potential.Start your fitness journey with us today!</th>
+</tr></table><br><br>
+<p class="join">
+JOIN THE COMMUNITY<br><br>
+<table>
+<tr>
+<th><img src="dis4.jpg" alt="" width="150px" height="100px"></th>
+<th><img src="oy3.jpg" alt=""  width="150px" height="100px"></th>
+<th><img src="p19.jpg" alt=""  width="150px" height="100px"></th>
+<th><img src="p42.jpg" alt=""  width="150px" height="100px"></th>
+<th><img src="p49.jpg" alt=""  width="150px" height="100px"></th>
+<th><img src="p41.jpg" alt=""  width="150px" height="100px"></th>
+<th><img src="p11.jpg" alt=""  width="100px" height="100px"></th>
+<th><img src="p13.jpg" alt=""  width="150px" height="100px"></th>
+<th><img src="p43.jpg" alt=""  width="150px" height="100px"></th>
+<th><img src="p48.jpg" alt=""  width="150px" height="100px"></th></tr></table>
+</p><br><br>
+<div class="line">
+<div class="card">
+  <img src="p16.jpg" alt="John" style="width:85%">
+  <h1>GYM</h1>
+  <p class="title"></p>
+<p><a href="navbar.html">
+ <button>More Info</button></a></p>
+</div>
+<div class="card">
+ <img src="oa4.jpg" alt="John" style="width:96%" "height:75%">
+ <h1>YOGA</h1>
+ <p class="title"></p>
+ <p><a href="navbaryoga.html">
+<button>More Info</button></a></p>
+</div>
+</div>
+<br><br>
+<div class="body">
+<h1><center>REVIEWS</center></h1>
+<div class="card">
+<p class="reviewer-name">John Doe</p>
+<p class="review-content">I've been a member for six months now, and I'm extremely satisfied with the facilities and trainers.
+The classes are challenging yet fun, and I've seen &nbsp;&nbsp;significant improvements in my fitness level.</p>
+</div>
+<div class="card">
+<p class="reviewer-name">Jane Smith</p>
+<p class="review-content">The atmosphere at this fitness club is fantastic! It's motivating to work out alongside other dedicated members,
+and the staff is always friendly and helpful. Highly recommend!</p>
+</div>
+<div class="card">
+<p class="reviewer-name">Mike Johnson</p>
+<p class="review-content">I joined this club a month ago, and I'm already feeling stronger and more energetic.
+The trainers are knowledgeable and provide personalized guidance, which has helped me stay on track with my fitness goals.</p>
+</div>
+</div>
+<footer>
+<p class="p">&copy; 2024 Your Website</p>
+</footer>
+</body>
+</html>
